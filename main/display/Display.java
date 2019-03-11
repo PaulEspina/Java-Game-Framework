@@ -36,6 +36,8 @@ public class Display {
 		canvas.setMinimumSize(new Dimension(width, height));
 		canvas.setFocusable(false);
 		
+		frame.add(canvas);
+		frame.pack();
 	}
 	
 	public JFrame getFrame() {
